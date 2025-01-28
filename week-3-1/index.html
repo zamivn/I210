@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week-3-1</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li><a href="more-forms.html">More Forms</a></li>
+      </ul>
+    </nav>
+
+    <h1>Containers and Forms</h1>
+    <form action="index.html" method="get">
+      <div>
+        <label for="Favorite Snack">Favorite Snack:</label>
+        <input
+          type="text"
+          name="Favorite Snack"
+          id="favorite snack"
+          placeholder="example: peeps"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="Least Favorite Snack">Least Favorite Snack:</label>
+        <input
+          type="text"
+          name="Least Favorite Snack"
+          id="least favorite snack"
+          value="Harry Potter Jellybeans"
+        />
+      </div>
+      <div>
+        <label for="explain">Explain Your Choices:</label>
+        <textarea name="explain" id="explain"></textarea>
+      </div>
+      <div>
+        <label for="Snackcolormood">Snack Color Mood:</label>
+        <input type="color" name="Snackcolormood" id="Snackcolormood" />
+      </div>
+      <input type="submit" value="Submit Snacks" />
+    </form>
+  </body>
+</html>
