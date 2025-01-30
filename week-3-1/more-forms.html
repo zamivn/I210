@@ -15,5 +15,69 @@
       </ul>
     </nav>
     <h1>More Forms</h1>
+
+    <form action="more-forms.html" method="get">
+      <div>
+        <input
+          type="checkbox"
+          name="soulcontract"
+          id="soul contract"
+          checked
+          disabled
+        />
+        <label for="soulcontract">Sign away your soul</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          name="LengthContract"
+          id="LengthContract1"
+          value="1"
+        />
+        <label for="LengthContract1">1 Year</label>
+
+        <input
+          type="radio"
+          name="LengthContract"
+          id="LengthContract2"
+          value="2"
+        />
+        <label for="LengthContract2">2 Year</label>
+
+        <input
+          type="radio"
+          name="LengthContract"
+          id="LengthContract3"
+          value="3"
+        />
+        <label for="LengthContract3">3 Year</label>
+      </div>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="fullname">Fullname:</label>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            required
+            list="commonNames"
+          />
+          <datalist id="commonNames">
+            <option value="Scrappy">Scrappy</option>
+            <option value="Scruppy">Scruppy</option>
+            <option value="Scroppy">Scroppy</option>
+          </datalist>
+        </div>
+        <div>
+          <input type="submit" value="E-sign" />
+        </div>
+        <select name="title" id="title">
+          <option value="Necromancer">Necromancer</option>
+          <option value="Jester">Jester</option>
+          <option value="Barbarian">Barbarian</option>
+        </select>
+      </fieldset>
+    </form>
   </body>
 </html>
