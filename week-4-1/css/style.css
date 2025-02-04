@@ -1,0 +1,32 @@
+p {
+  color: red;
+  background-color: black;
+}
+#lemon {
+  padding: 100px;
+}
+.bannana-guard {
+  font-size: 40px;
+}
+p + h4 {
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+body h1 ~ p {
+  padding-bottom: 200px;
+}
+ul li {
+  list-style: url(://vignette.wikia.nocookie.net/total-movies/images/5/51/VeggieTales_Film_series.jpg/revision/latest?cb=20131205145145;);
+  margin: left 51px;
+}
+body > h4 {
+  font-size: 10px;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  margin: 200px;
+  display: inline;
+}
